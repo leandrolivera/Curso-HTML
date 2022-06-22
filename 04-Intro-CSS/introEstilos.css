@@ -1,0 +1,53 @@
+.colores {
+    color:orangered;
+}
+
+.color-hexadecimal{
+    color: #BCE784;
+} 
+
+/* ----> Estas son las graduaciones de rojo, verde, azul*/
+.color-rgb{
+    color: rgb(53, 71, 226);
+}
+
+/*Idem anterior, pero la ultima opción le agrega transparencia al texto.*/
+.color-rgba{
+    color: rgba(10, 10, 10, 0.5);
+}
+/* Fondos */
+.fondo{
+    /*background-color: cornflowerblue;*/
+    background-image: url("https://www.wallpaperuse.com/wallp/80-807374_m.jpg");
+    background-position: left bottom;
+}
+
+.fondo-interno{
+    /*background-color: cornflowerblue;*/
+    background-image: url("../03-Multimedia/imagenes/1.webp");
+    background-position: left bottom;
+}
+
+/* Tamaños */
+
+.ancho{
+    background-color: #BCE784;
+    width: 100px;
+}
+
+.alto{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    /*padding: 10px 20px 30px 40px;*/
+    margin: 10px 20px;
+    /*margin: 10px 20px 30px 40px;*/
+    
+}
