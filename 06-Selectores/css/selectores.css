@@ -1,0 +1,22 @@
+/*
+.p-contenedor {
+    color: green;
+}
+En vez de crear una clase para cada parrafo,
+lo reemplazamos de la siguiente manera:
+*/
+
+/* ANDIACIÓN COMPLETA, NO ES NECESARIO
+
+body section.main .contenedor p{
+    color: green;
+}
+*/
+
+.contenedor p{
+    color:green;
+}
+
+.contenedor #boton-contenedor {
+    background-color: yellow;
+}

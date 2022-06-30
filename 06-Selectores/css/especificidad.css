@@ -1,0 +1,26 @@
+/*
+(1, 0, 0)
+(0, 1, 0)
+(0, 0, 1)
+(0, 0, 0)
+*/
+
+h1#h1-id.h1-clase {
+    color: darksalmon
+}
+
+#h1-id {
+    color: darkorchid;
+}
+
+.h1-clase {
+    color: yellow;
+}
+
+h1 {
+    color: blue !important; /*NO ES RECOMENDABLE, MALA PRÁCTICA*/
+}
+
+p {
+    color: red;
+}
